@@ -1,0 +1,38 @@
+[
+  {
+    "source": "I am Aetna home page",
+    "steps": [
+      {
+        "name": "I am Aetna home page",
+        "aggregatedDurations": {
+          "median": 10.48705,
+          "average": 10.48705
+        },
+        "durations": [
+          {
+            "duration": 10.48705,
+            "location": "file:///Users/ferhatbellache/IdeaProjects/Bootcamp_Team3/Aetna/src/test/java/features/FerAetna.feature:4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I wait for four seconds",
+    "steps": [
+      {
+        "name": "I wait for four seconds",
+        "aggregatedDurations": {
+          "median": 0.051717,
+          "average": 0.051717
+        },
+        "durations": [
+          {
+            "duration": 0.051717,
+            "location": "file:///Users/ferhatbellache/IdeaProjects/Bootcamp_Team3/Aetna/src/test/java/features/FerAetna.feature:5"
+          }
+        ]
+      }
+    ]
+  }
+]

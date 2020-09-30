@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 1, Errors: 0, Skipped: 5, Time elapsed: 1.968 s <<< FAILURE! - in TestSuite
+setUp(footerEbayTest.BuyCategoryTest)  Time elapsed: 1.691 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver is not executable: /Users/ferhatbellache/IdeaProjects/Bootcamp_Team3/Ebay/../Generic/BrowserDriver/windows/chromedriver.exe
+

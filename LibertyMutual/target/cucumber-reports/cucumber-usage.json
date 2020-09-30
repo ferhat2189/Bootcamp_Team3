@@ -1,0 +1,110 @@
+[
+  {
+    "source": "I am in LibertyMutual homepage",
+    "steps": [
+      {
+        "name": "I am in LibertyMutual homepage",
+        "aggregatedDurations": {
+          "median": 7.024771,
+          "average": 7.278246
+        },
+        "durations": [
+          {
+            "duration": 9.131291,
+            "location": "file:///Users/ferhatbellache/IdeaProjects/Bootcamp_Team3/LibertyMutual/src/test/java/features/LibMut.feature:11"
+          },
+          {
+            "duration": 5.702326,
+            "location": "file:///Users/ferhatbellache/IdeaProjects/Bootcamp_Team3/LibertyMutual/src/test/java/features/LibMut.feature:11"
+          },
+          {
+            "duration": 6.895165,
+            "location": "file:///Users/ferhatbellache/IdeaProjects/Bootcamp_Team3/LibertyMutual/src/test/java/features/LibMut.feature:11"
+          },
+          {
+            "duration": 7.637677,
+            "location": "file:///Users/ferhatbellache/IdeaProjects/Bootcamp_Team3/LibertyMutual/src/test/java/features/LibMut.feature:11"
+          },
+          {
+            "duration": 7.024771,
+            "location": "file:///Users/ferhatbellache/IdeaProjects/Bootcamp_Team3/LibertyMutual/src/test/java/features/LibMut.feature:11"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Customer Support Button",
+    "steps": [
+      {
+        "name": "I click on Customer Support Button",
+        "aggregatedDurations": {
+          "median": 0.941611,
+          "average": 0.9252795
+        },
+        "durations": [
+          {
+            "duration": 0.229907,
+            "location": "file:///Users/ferhatbellache/IdeaProjects/Bootcamp_Team3/LibertyMutual/src/test/java/features/LibMut.feature:12"
+          },
+          {
+            "duration": 0.279658,
+            "location": "file:///Users/ferhatbellache/IdeaProjects/Bootcamp_Team3/LibertyMutual/src/test/java/features/LibMut.feature:16"
+          },
+          {
+            "duration": 2.15833,
+            "location": "file:///Users/ferhatbellache/IdeaProjects/Bootcamp_Team3/LibertyMutual/src/test/java/features/LibMut.feature:12"
+          },
+          {
+            "duration": 0.985594,
+            "location": "file:///Users/ferhatbellache/IdeaProjects/Bootcamp_Team3/LibertyMutual/src/test/java/features/LibMut.feature:12"
+          },
+          {
+            "duration": 1.00056,
+            "location": "file:///Users/ferhatbellache/IdeaProjects/Bootcamp_Team3/LibertyMutual/src/test/java/features/LibMut.feature:12"
+          },
+          {
+            "duration": 0.897628,
+            "location": "file:///Users/ferhatbellache/IdeaProjects/Bootcamp_Team3/LibertyMutual/src/test/java/features/LibMut.feature:12"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Covid support Button",
+    "steps": [
+      {
+        "name": "I click on Covid support Button",
+        "aggregatedDurations": {
+          "median": 1.862325,
+          "average": 1.862325
+        },
+        "durations": [
+          {
+            "duration": 1.862325,
+            "location": "file:///Users/ferhatbellache/IdeaProjects/Bootcamp_Team3/LibertyMutual/src/test/java/features/LibMut.feature:22"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify Covid support is appear properly",
+    "steps": [
+      {
+        "name": "I verify Covid support is appear properly",
+        "aggregatedDurations": {
+          "median": 0.461739,
+          "average": 0.461739
+        },
+        "durations": [
+          {
+            "duration": 0.461739,
+            "location": "file:///Users/ferhatbellache/IdeaProjects/Bootcamp_Team3/LibertyMutual/src/test/java/features/LibMut.feature:23"
+          }
+        ]
+      }
+    ]
+  }
+]

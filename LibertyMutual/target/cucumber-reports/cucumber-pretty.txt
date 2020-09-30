@@ -1,0 +1,63 @@
+
+@Regression
+Scenario: LibertyMutual Customer Support Button check # src/test/java/features/LibMut.feature:15
+  Given I am in LibertyMutual homepage                # stepdefinitions.LibMutStepDefinitions.i_am_in_liberty_mutual_homepage()
+  And I click on Customer Support Button              # stepdefinitions.LibMutStepDefinitions.i_click_on_customer_support_button()
+  And I click on Customer Support Button              # stepdefinitions.LibMutStepDefinitions.i_click_on_customer_support_button()
+  Then I verify Customer Support is appear properly   # stepdefinitions.LibMutStepDefinitions.i_verify_customer_support_is_appear_properly()
+      java.lang.AssertionError: Search Title not match expected [Get answers] but found []
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at home.LibMutHome.validateCustomerSupportText(LibMutHome.java:45)
+	at stepdefinitions.LibMutStepDefinitions.i_verify_customer_support_is_appear_properly(LibMutStepDefinitions.java:57)
+	at ✽.I verify Customer Support is appear properly(file:///Users/ferhatbellache/IdeaProjects/Bootcamp_Team3/LibertyMutual/src/test/java/features/LibMut.feature:17)
+
+  And I verify page title as Customer Support         # stepdefinitions.LibMutStepDefinitions.i_verify_page_title_as_customer_support()
+
+    Embedding Demo1 [image/png 518111 bytes]
+
+
+@Regression
+Scenario: LibertyMutual Covid-19 support Button check # src/test/java/features/LibMut.feature:21
+  Given I am in LibertyMutual homepage                # stepdefinitions.LibMutStepDefinitions.i_am_in_liberty_mutual_homepage()
+  And I click on Customer Support Button              # stepdefinitions.LibMutStepDefinitions.i_click_on_customer_support_button()
+  And I click on Covid support Button                 # stepdefinitions.LibMutStepDefinitions.i_click_on_covid_support_button()
+  Then I verify Covid support is appear properly      # stepdefinitions.LibMutStepDefinitions.i_verify_covid_support_is_appear_properly()
+  And I verify page title as Covid support Support    # stepdefinitions.LibMutStepDefinitions.i_verify_page_title_as_covid_support_support()
+      java.lang.AssertionError: COVID-19 | Liberty Mutual expected [COVID-19 | Liberty Mutual] but found [Title does not match]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at stepdefinitions.LibMutStepDefinitions.i_verify_page_title_as_covid_support_support(LibMutStepDefinitions.java:83)
+	at ✽.I verify page title as Covid support Support(file:///Users/ferhatbellache/IdeaProjects/Bootcamp_Team3/LibertyMutual/src/test/java/features/LibMut.feature:24)
+
+
+    Embedding Demo1 [image/png 176207 bytes]
+
+
+@Regression
+Scenario: LibertyMutual frequently Asked Questions Button check # src/test/java/features/LibMut.feature:27
+  Given I am in LibertyMutual homepage                          # stepdefinitions.LibMutStepDefinitions.i_am_in_liberty_mutual_homepage()
+  And I click on Customer Support Button                        # stepdefinitions.LibMutStepDefinitions.i_click_on_customer_support_button()
+  And I click on frequently Asked Questions Button              # null
+  Then I verify frequently Asked Questions is appear properly   # null
+  And I verify page title as frequently Asked Questions Support # null
+
+@Regression
+Scenario: LibertyMutual Manage your policy Button check # src/test/java/features/LibMut.feature:33
+  Given I am in LibertyMutual homepage                  # stepdefinitions.LibMutStepDefinitions.i_am_in_liberty_mutual_homepage()
+  And I click on Customer Support Button                # stepdefinitions.LibMutStepDefinitions.i_click_on_customer_support_button()
+  And I click on Manage your policy Button              # null
+  Then I verify Manage your policy is appear properly   # null
+  And I verify page title as Manage your policy Support # null
+
+@Regression
+Scenario: LibertyMutual Billing & payment options Button check # src/test/java/features/LibMut.feature:39
+  Given I am in LibertyMutual homepage                         # stepdefinitions.LibMutStepDefinitions.i_am_in_liberty_mutual_homepage()
+  And I click on Customer Support Button                       # stepdefinitions.LibMutStepDefinitions.i_click_on_customer_support_button()
+  And I click on Billing & payment options Button              # null
+  Then I verify Billing & payment options is appear properly   # null
+  And I verify page title as Billing & payment options Support # null

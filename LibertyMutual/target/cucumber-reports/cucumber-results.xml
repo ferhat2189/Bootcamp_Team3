@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="5" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="5" time="52.478">
+    <testcase classname="Unknown" name="LibertyMutual Customer Support Button check" time="13.373">
+        <failure message="Search Title not match expected [Get answers] but found []" type="java.lang.AssertionError">
+            <![CDATA[Given I am in LibertyMutual homepage........................................passed
+And I click on Customer Support Button......................................passed
+And I click on Customer Support Button......................................passed
+Then I verify Customer Support is appear properly...........................failed
+And I verify page title as Customer Support.................................skipped
+
+StackTrace:
+java.lang.AssertionError: Search Title not match expected [Get answers] but found []
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at home.LibMutHome.validateCustomerSupportText(LibMutHome.java:45)
+	at stepdefinitions.LibMutStepDefinitions.i_verify_customer_support_is_appear_properly(LibMutStepDefinitions.java:57)
+	at ✽.I verify Customer Support is appear properly(file:///Users/ferhatbellache/IdeaProjects/Bootcamp_Team3/LibertyMutual/src/test/java/features/LibMut.feature:17)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Unknown" name="LibertyMutual Covid-19 support Button check" time="12.388">
+        <failure message="COVID-19 | Liberty Mutual expected [COVID-19 | Liberty Mutual] but found [Title does not match]" type="java.lang.AssertionError">
+            <![CDATA[Given I am in LibertyMutual homepage........................................passed
+And I click on Customer Support Button......................................passed
+And I click on Covid support Button.........................................passed
+Then I verify Covid support is appear properly..............................passed
+And I verify page title as Covid support Support............................failed
+
+StackTrace:
+java.lang.AssertionError: COVID-19 | Liberty Mutual expected [COVID-19 | Liberty Mutual] but found [Title does not match]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at stepdefinitions.LibMutStepDefinitions.i_verify_page_title_as_covid_support_support(LibMutStepDefinitions.java:83)
+	at ✽.I verify page title as Covid support Support(file:///Users/ferhatbellache/IdeaProjects/Bootcamp_Team3/LibertyMutual/src/test/java/features/LibMut.feature:24)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Unknown" name="LibertyMutual frequently Asked Questions Button check" time="8.234">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
+            <![CDATA[Given I am in LibertyMutual homepage........................................passed
+And I click on Customer Support Button......................................passed
+And I click on frequently Asked Questions Button............................undefined
+Then I verify frequently Asked Questions is appear properly.................skipped
+And I verify page title as frequently Asked Questions Support...............skipped
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Unknown" name="LibertyMutual Manage your policy Button check" time="8.999">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
+            <![CDATA[Given I am in LibertyMutual homepage........................................passed
+And I click on Customer Support Button......................................passed
+And I click on Manage your policy Button....................................undefined
+Then I verify Manage your policy is appear properly.........................skipped
+And I verify page title as Manage your policy Support.......................skipped
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Unknown" name="LibertyMutual Billing &amp; payment options Button check" time="8.244">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
+            <![CDATA[Given I am in LibertyMutual homepage........................................passed
+And I click on Customer Support Button......................................passed
+And I click on Billing & payment options Button.............................undefined
+Then I verify Billing & payment options is appear properly..................skipped
+And I verify page title as Billing & payment options Support................skipped
+]]>
+        </failure>
+    </testcase>
+</testsuite>

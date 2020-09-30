@@ -1,0 +1,12 @@
+
+Scenario: Aetna Logo should display      # src/test/java/features/FerAetna.feature:3
+  Given I am Aetna home page             # stepdefinitions.FerAetnaStepDefinition.i_am_aetna_home_page()
+  When I wait for four seconds           # stepdefinitions.FerAetnaStepDefinition.i_wait_for_four_seconds()
+  Then I verify if the logo is displayed # stepdefinitions.FerAetnaStepDefinition.i_verify_if_the_logo_is_displayed()
+      java.lang.NullPointerException
+	at stepdefinitions.FerAetnaStepDefinition.i_verify_if_the_logo_is_displayed(FerAetnaStepDefinition.java:64)
+	at ✽.I verify if the logo is displayed(file:///Users/ferhatbellache/IdeaProjects/Bootcamp_Team3/Aetna/src/test/java/features/FerAetna.feature:6)
+
+
+    Embedding Demo1 [image/png 1192611 bytes]
+
